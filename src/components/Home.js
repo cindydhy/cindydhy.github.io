@@ -1,25 +1,33 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 
-
-class Home extends React.Component{
+class Home extends React.Component {
     render() {
-        const { classes } = this.props;
-        return (
-            <div id="top">
-                <h1
-                style={{
-                    position: "absolute",
-                    left: "50%",
-                    top: "10%",
-                    transform: "translate(-50%, -50%)",
-                }}
-            >
-                Welcome to my website
-            </h1>
-            </div>
-        );
+        const useStyles = {
+            title: {
+                padding: "10px",
+                fontFamily: "Merriweather",
+                textAlign: "center",
+                textTransform: "uppercase",
+                color: "#484D51",
+                fontSize: "35px",
+                position: "absolute",
+                left: "38%",
+                top: "30%",
+            },
+            subheadings: {
+                position: "absolute",
+                left: "37%",
+                top: "43%",
+            }
+        };
+      return (
+        <div>
+            <h1 style={useStyles.title}>Hi, I'm Cindy Ding!</h1>
+            <p style={useStyles.subheadings}>Welcome to my website. This is still a work in progress</p>
+        </div>
+      );
     }
-}
+  }
 
 export default withRouter(Home);
