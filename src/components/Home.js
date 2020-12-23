@@ -19,12 +19,14 @@ class Home extends React.Component {
                 position: "absolute",
                 left: "37%",
                 top: "43%",
-            }
+                color: "#484D51",
+                fontFamily: "B612",
+            },
         };
       return (
         <div>
             <h1 style={useStyles.title}>Hi, I'm Cindy Ding!</h1>
-            <p style={useStyles.subheadings}>Welcome to my website. This is still a work in progress</p>
+            <p style={useStyles.subheadings}>Welcome to my website. This is a work in progress</p>
         </div>
       );
     }
