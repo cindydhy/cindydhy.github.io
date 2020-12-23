@@ -9,6 +9,12 @@ function App() {
     <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Home} />
+      {/* <Route path='/cindydhy' component={() => { 
+    //  window.location.href = 'https://github.com/cindydhy'; 
+        window.open('https://github.com/cindydhy', '_blank');
+    //  return null;
+      }}/> */}
+      
     </Switch>
   </BrowserRouter>
   );
