@@ -31,9 +31,8 @@ class Home extends React.Component {
           top: "38%",
           transform: 'translate(5%, 0%)',
           justifyContent:"space-between",
-          // paddingBottom: "15px",
           paddingTop: "15px",
-          marginTop: "20px"
+          marginTop: "15px"
       },
       subheadings: {
         position: "absolute",
