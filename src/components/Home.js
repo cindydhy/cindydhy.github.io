@@ -21,7 +21,7 @@ class Home extends React.Component {
             position: "absolute",
             left: "50%",
             top: "35%",
-            transform: 'translate(-50%, -50%)',
+            transform: "translate(-50%, -50%)",
             justifyContent:"space-between",
             paddingBottom: "50px"
         },
@@ -29,7 +29,7 @@ class Home extends React.Component {
           position: "absolute",
           left: "43%",
           top: "38%",
-          transform: 'translate(5%, 0%)',
+          transform: "translate(5%, 0%)",
           justifyContent:"space-between",
           paddingTop: "15px",
           marginTop: "15px"
