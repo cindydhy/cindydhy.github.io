@@ -27,13 +27,13 @@ class Home extends React.Component {
         },
         icons: {
           position: "absolute",
-          left: "45%",
-          top: "39%",
-          transform: 'translate(-50%, -50%)',
+          left: "43%",
+          top: "38%",
+          transform: 'translate(5%, 0%)',
           justifyContent:"space-between",
-          alignItems: "center",
-          paddingTop: "100px"
-          // marginLeft: "20px"
+          // paddingBottom: "15px",
+          paddingTop: "15px",
+          marginTop: "20px"
       },
       subheadings: {
         position: "absolute",
