@@ -19,13 +19,21 @@ class Home extends React.Component {
             color: "#484D51",
             fontSize: "35px",
             position: "absolute",
-            left: "38%",
-            top: "30%",
+            left: "50%",
+            top: "35%",
+            transform: 'translate(-50%, -50%)',
+            justifyContent:"space-between",
+            paddingBottom: "50px"
         },
         icons: {
           position: "absolute",
           left: "45%",
-          top: "43%",
+          top: "39%",
+          transform: 'translate(-50%, -50%)',
+          justifyContent:"space-between",
+          alignItems: "center",
+          paddingTop: "100px"
+          // marginLeft: "20px"
       },
       subheadings: {
         position: "absolute",
