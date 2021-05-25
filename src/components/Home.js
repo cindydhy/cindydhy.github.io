@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 class Home extends React.Component {
 
   toGitHub = () => {
-    window.open('https://github.com/cindydhy');
+    window.open('https://github.com/cindydhy'); 
   }
 
   render() {
